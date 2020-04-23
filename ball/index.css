@@ -1,0 +1,96 @@
+/* CSS Document */
+body {
+	background:url("img/background.png");
+	opacity:0.7;
+	position: relative;
+	z-index:-1;
+}		
+.navbar a:hover{
+	color:blue;
+	background-color:cadetblue;
+}
+.projects-header{
+	color: #AD8585;
+}
+.container{
+	color: black;
+	background: white;
+	margin: 30px auto;
+	padding: 30px;
+}
+#accordionExample {
+            animation: change 10s linear 0s infinite;     /*间隔0s无限循环*/ 
+        }
+        @keyframes change {
+            0% {
+                color: #5121F1;
+            }
+            25% {
+                color: #E9EF0F;
+            }
+            50% {
+                color: #f60;
+            }
+            75% {
+                color: #55E84A;
+            }
+            100% {
+                color: #f00;
+            }
+        }
+#demo a {
+    width:100%;
+    overflow:hidden;
+    font:18px tahoma;
+    display:block;
+    text-decoration:none;
+    margin:5px;
+    color:black;
+    text-align:center;
+}
+#demo a:hover {
+    color:#ff6600;
+}
+
+.list-unstyled img:hover{
+	transform: scale(1.1);
+	transition:1s;
+	cursor: pointer;
+}
+.footer img:hover{
+	transform: scale(1.05);
+	transition:1s;
+	cursor: pointer;
+}
+
+.thumbnail img:hover{
+	transform: scale(1.05);
+	transition:1s;
+	cursor: pointer;
+}
+
+.thumbnail a {display: inline-block;
+	width:100px;
+	padding: 10px 25px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center; 
+	text-decoration: none;
+	outline: none;
+	background-color: black;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 10px #999;
+}
+.thumbnail a:hover{
+	background-color: gray;
+}
+.thumbnail a:active{ 
+	background-color: gray;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+
+
+
